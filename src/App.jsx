@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import InputTask from './components/TaskInput/InputTask';
+import AppContainer from './components/ApplicationHolder/AppContainer';
 
 const App = () => {
   return (
     <>
       <div>
-        <InputTask />
+        <AppContainer />
       </div>
     </>
   )
